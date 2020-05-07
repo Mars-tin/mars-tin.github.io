@@ -34,8 +34,13 @@ body {
 }
 
 ol, ul {
+	color: #66686a;
 	list-style: none;
 }
+
+	.icons{
+		color: #c6c4d0;
+	}
 
 blockquote, q {
 	quotes: none;
@@ -111,13 +116,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: rgba(96, 188, 191, 0.73);
+		color: inherit;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #83c4e2 !important;
+			color: rgba(123, 184, 212, 0.79) !important;
 			text-decoration: none;
 		}
 
@@ -131,7 +136,8 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		color: #66686a;
+		margin: 0 0 0.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2445,14 +2451,13 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px rgba(128, 157, 176, 0.95);
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3.15em;
-		height: calc(2.75em + 6px);
-		line-height: 2.75em;
+		height: calc(3.15em + 6px);
+		line-height: 3.15em;
 		min-width: 10em;
 		padding: 0 1.5em;
 		text-align: center;
@@ -2503,7 +2508,13 @@ input, select, textarea {
 		input[type="reset"].small,
 		input[type="button"].small,
 		.button.small {
+			border: solid 2px rgba(128, 157, 176, 0.38);
 			font-size: 0.8em;
+			min-width: 5em;
+			height: calc(1.2em + 6px);
+			line-height: 1.2em;
+			padding: 0 0.5em;
+			font-weight: 400;
 		}
 
 		input[type="submit"].large,
@@ -3334,12 +3345,16 @@ input, select, textarea {
 	font-size: 1em;
 }
 
+#timeline section.year section ul.edu {
+	color: rgba(49, 57, 135, 0.94);
+}
+
 #timeline section.year section ul.tutor {
 	color: #007662;
 }
 
 #timeline section.year section ul.research {
-	color: #313987;
+	color: rgba(101, 39, 35, 0.96);
 }
 
 @media (min-width: 62em) {
