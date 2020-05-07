@@ -137,7 +137,7 @@ input, select, textarea {
 
 	p {
 		color: #66686a;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2180,8 +2180,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
-				padding: 0.5em 0;
+				padding: 0 0;
 			}
 
 				ul.alt li:first-child {
