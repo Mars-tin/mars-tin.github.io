@@ -2507,6 +2507,8 @@ input, select, textarea {
 		input[type="reset"].small,
 		input[type="button"].small,
 		.button.small {
+			pointer-events: none;
+		  	cursor: default;
 			border: solid 2px rgba(128, 157, 176, 0.38);
 			font-size: 0.8em;
 			min-width: 5em;
