@@ -3281,7 +3281,7 @@ input, select, textarea {
 	height: 100%;
 	margin-left: 0;
 	margin-right: auto;
-	margin-top: 5rem;
+	margin-top: auto;
 }
 
 #timeline div:after {
