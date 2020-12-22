@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the personal homepage of Martin Ziqiao Ma. Visit it [here](mars-tin.github.io).
+This is the personal homepage of Martin Ziqiao Ma. Access it at mars-tin.github.io!
 
 The latest update is **Dec. 2020**.
 
